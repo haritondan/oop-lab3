@@ -6,12 +6,18 @@ public class main {
     public static  void main(String[] args){
         Object obj = new Object();
         obj.showObject();
+
         Waiter w1 = new Waiter("Cristian");
         Waiter w3 = new Waiter("Francesca");
         Client c1 = new Client("Client", 1);
         Client c3 = new Client("Client", 3);
         Manager m1 = new Manager("Dan", "General Manager");
         m1.openRestaurnt();
+
+        Person parent = w1;
+
+        //w1.showName();
+        //parent.showName();
 
         Bar b1 = new Bar("Bar");
         European e1 = new European("European");

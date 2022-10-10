@@ -16,4 +16,9 @@ public class Waiter extends Person {
     public void bringOrder(){
         System.out.println("Here is your order. Enjoy your meal.\n");
     }
+
+    @Override
+    void showName(){
+        System.out.println("I am waiter and My name is " + name);
+    }
 }
